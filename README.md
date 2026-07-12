@@ -1,103 +1,64 @@
-# Mochi-Robot
-An ESP32-powered OLED Mochi Robot featuring expressive face animations, blinking eyes, and interactive emotions using a 0.96" OLED display.
-
 #  OLED Mochi Robot
 
-An animated OLED Mochi Robot built using ESP32 and a 0.96" SSD1306 OLED Display. The robot displays cute facial expressions, eye movements, blinking animations, and emotional reactions.
+An expressive OLED-based Mochi Robot built using an ESP32 and a custom soldered PCB. This project displays smooth facial animations such as blinking, happy, sleepy, and surprised expressions on a 0.96" SSD1306 OLED display. It is designed as a compact embedded system suitable for learning embedded programming, PCB prototyping, and OLED graphics.
 
 ---
 
 ##  Features
 
--  Cute Mochi face animation
--  Eye movement animation
--  Blinking effect
--  Sleep animation
--  Happy & surprised expressions
--  Smooth OLED graphics
--  ESP32 compatible
--  Compact and lightweight
+* Cute animated Mochi face
+* Smooth blinking and eye movement
+* Multiple facial expressions
+* Custom soldered PCB for a compact and reliable design
+* Low power consumption
+* ESP32-based embedded system
+* Easy to modify with additional animations
 
 ---
 
-## 🛠 Hardware Required
+##  Hardware Components
 
-- ESP32 Development Board
-- 0.96" OLED Display (SSD1306, I2C)
-- Breadboard / PCB
-- Jumper Wires
-- USB Cable
-
----
-
-##  Software Required
-
-- Arduino IDE
-- ESP32 Board Package
-- Adafruit GFX Library
-- Adafruit SSD1306 Library
+* ESP32 Development Board
+* 0.96" SSD1306 OLED Display (I2C)
+* Custom Soldered PCB
+* Male/Female Header Pins
+* Jumper Wires (for programming/testing)
+* USB Cable
 
 ---
 
-##  Project Structure
+##  Software Requirements
 
-OLED-Mochi-Robot/
-│
-├── code/
-│ └── OLED_Mochi_Robot.ino
-│
-├── images/
-│ ├── happy.png
-│ ├── blink.png
-│ └── sleep.png
-│
-├── circuit/
-│ └── wiring.png
-│
-├── README.md
-└── LICENSE
+* Arduino IDE
+* ESP32 Board Package
+* Adafruit GFX Library
+* Adafruit SSD1306 Library
+* Wire Library
 
 ---
 
-##  Wiring
+##  PCB Connections
 
-| OLED | ESP32 |
-|------|-------|
-| VCC | 3.3V |
-| GND | GND |
-| SDA | GPIO21 |
-| SCL | GPIO22 |
+| OLED Pin | ESP32 Pin |
+| -------- | --------- |
+| VCC      | 3.3V      |
+| GND      | GND       |
+| SDA      | GPIO21    |
+| SCL      | GPIO22    |
 
----
-
-##  Libraries Used
-
-- Adafruit SSD1306
-- Adafruit GFX
-- Wire
+> **Note:** All components are permanently soldered onto a PCB for improved durability and stable electrical connections.
 
 ---
 
-##  Getting Started
+##  Future Improvements
 
-1. Install Arduino IDE.
-2. Install ESP32 Board Manager.
-3. Install the required libraries.
-4. Connect the OLED to the ESP32.
-5. Upload the code.
-6. Enjoy the Mochi Robot animations!
-
----
-
-##  Demo
-
-Add screenshots or GIFs here.
+* Touch sensor interaction
+* Voice-controlled expressions
+* Battery-powered operation
+* Bluetooth or Wi-Fi control
+* Additional animated emotions
+* Sound effects with a buzzer
 
 ---
-
-##  Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
-
 
 
