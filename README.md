@@ -61,4 +61,4 @@ An expressive OLED-based Mochi Robot built using an ESP32 and a custom soldered 
 
 ---
 
-
+![image alt](https://github.com/jhm-lgtm/Mochi-Robot/blob/d7f54e2f457590a4b4f030af939d92f41a10f089/Gemini_Generated_Image_ihlkasihlkasihlk.png)
